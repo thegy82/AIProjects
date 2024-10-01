@@ -1,36 +1,64 @@
 import requests
 import json
 
-api_key = "f4946b41a2d6d999106aa8e914e6bdc0"
-base_url = "http://api.openweathermap.org/data/2.5/weather?"
-city_name = input("Enter city name: ")
-complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+from tkinter import *
 
-response = requests.get(complete_url)
-data = response.json()
+def get_weather(city_name):
+    api_key = "f4946b41a2d6d999106aa8e914e6bdc0"
+    base_url = "http://api.openweathermap.org/data/2.5/weather?"
+    complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+    response = requests.get(complete_url)
+    return response.json()
 
-if data["cod"] != "404":
-    main = data["main"]
-    weather = data["weather"][0]
-    wind = data["wind"]
+def show_weather():
+    city_name = city_entry.get()
+    data = get_weather(city_name)
 
-    temperature = main["temp"]
+    if data["cod"] != "404":
+        main = data["main"]
+        weather = data["weather"][0]
+        wind = data["wind"]
 
-    # convert temp from kelvin to fahrenheit
-    temperature_fahrenheit = round((temperature - 273.15) * 9/5 + 32)
-    pressure = main["pressure"]
-    humidity = main["humidity"]
-    weather_description = weather["description"]
-    wind_speed = wind["speed"]
+        temperature = main["temp"]
 
-    # convert wind speed from mps to mph
-    wind_speed_mph = wind_speed * 2.237
+        # convert temp from kelvin to fahrenheit
+        temperature_fahrenheit = round((temperature - 273.15) * 9/5 + 32)
+        pressure = main["pressure"]
+        humidity = main["humidity"]
+        weather_description = weather["description"]
+        wind_speed = wind["speed"]
 
-    print(f"Temperature: {temperature_fahrenheit}°F")
-    print(f"Pressure: {pressure} hpa")
-    print(f"Humidity: {humidity}%")
-    print(f"Description: {weather_description}")
-    print(f"Wind speed: {wind_speed_mph} mph")
-else: 
-    print("City not found")
+        # convert wind speed from mps to mph
+        wind_speed_mph = wind_speed * 2.237
+
+        output = (
+            f"Temperature: {temperature_fahrenheit}°F"
+            f"Pressure: {pressure} hpa"
+            f"Humidity: {humidity}%"
+            f"Description: {weather_description}"
+            f"Wind speed: {wind_speed_mph} mph"
+        )
+    else: 
+        output = "City not found"
+
+    weather_output.config(text=output)
+
+root = Tk()
+root.title("Weather App")
+root.geometry("600x400")
+
+
+city_label = Label(root, text="Enter city name: ")
+city_label.pack()
+
+city_entry = Entry(root)
+city_entry.pack()
+
+get_weather_button = Button(root, text="Get Weather", command=show_weather)
+get_weather_button.pack()
+
+weather_output = Label(root, text="", justify="left")
+weather_output.pack()
+
+root.mainloop()
 
