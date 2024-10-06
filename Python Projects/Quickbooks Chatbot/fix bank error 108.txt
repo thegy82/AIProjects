@@ -1,0 +1,49 @@
+Fix bank error 108 in QuickBooks Online and QuickBooks Self-Employed
+by Intuit
+•
+132
+•
+Updated 3 months ago
+If you see error 108, it means there's a message from your bank or credit card company on their website. Messages, especially ones about updates, can block the connection to QuickBooks.
+
+Messages are usually about:
+
+New terms of service
+Announcements about maintenance or other site changes
+New offers
+For a better experience, open this article in QuickBooks Online. Launch side-by-side view Open this link in a new window
+
+When linking a new bank, you might see the error message:
+
+The bank needs you to do something at their site.
+When viewing an already linked bank, you might see the error message:
+
+There's a message on your bank's website that needs your attention.
+Learn what to do if you see this error when you check online banking in QuickBooks Online or QuickBooks Self-Employed.
+
+Step 1: review messages on your bank or credit card website
+Sign in to your bank or credit card website.
+Important: These should be the same credentials you use to connect the account to QuickBooks. If you use something different, disconnect the account from QuickBooks and use the credentials for your bank's website to reconnect it.
+ Check for any updates, messages, or notifications.
+If you need to take any action, the message should give you specific steps.
+Note: If you don't see notifications when you sign in, you may need to turn off your web browser's pop-up blocker.
+Step 2: update your bank connections in QuickBooks
+After you review and address all the messages, sign back into QuickBooks.
+
+In QuickBooks Online
+Sign in to your QuickBooks Online account.
+Go to Transactions, then select Bank transactions (Take me there).
+Select Update.
+In QuickBooks Self-Employed
+Sign in to QuickBooks Self-Employed.
+Select the profile ⚙ icon and then Bank accounts.
+Select Refresh all.
+Important: If you didn't see notifications on your bank's website and still see the error, reach out to your bank. You may not be able to see certain types of messages that can cause error 108.
+
+If the issue persists, sign in to QuickBooks using an incognito or private browser, or try other browser troubleshooting options.
+
+To fix online banking errors after bank merger:
+
+Contact the new bank (the one currently holding your account) and verify how to access your online accounts. The new bank should give you a new URL and login information for their online banking website.
+Go online and make sure you can access your accounts from the new site using the new credentials you were given. If not, contact the bank for assistance.
+In QuickBooks Online, disconnect the old account and reconnect using your new credentials.

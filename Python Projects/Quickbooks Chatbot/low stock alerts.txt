@@ -1,0 +1,27 @@
+Set up low stock alerts in QuickBooks Online
+by Intuit
+•
+240
+•
+Updated 3 weeks ago
+Learn how to set up alerts for products that are running low or out of stock in QuickBooks Online Plus and Advanced.
+
+Set up reorder points to keep tabs on your inventory. A reorder point is the threshold when you should reorder more of a stock item. QuickBooks uses reorder points to let you know what’s running low and what’s out of stock. We’ll help you set them up, so you’ll always have what your customers want. When your stock is low, we’ll also help you reorder inventory from vendors.
+
+Set up your products’ reorder points
+There are two ways to set up your products’ reorder points.
+
+If you have new products, you can enter reorder points when you add what you sell in QuickBooks.
+If you have saved products that don’t have reorder points, you can edit these products to add them. Here's how.
+Edit a product to add a reorder point
+Go to Settings ⚙ and select Products & services (Take me there).
+Find the product you want to have a reorder point.
+Select Edit ✎ in the Action column.
+In the Reorder point field, add the threshold when you should reorder more stock.
+Select Save.
+Check what’s running low or out of stock
+You can prioritize ordering the products you need the most. Once you've set up your reorder points, here’s how to check if you have inventory items that are running low or out of stock.
+
+Go to Settings ⚙ and select Products & services (Take me there).
+At the top, you’ll quickly see if you have low stock or out of stock items. Select Low stock, Out of stock, or See all next to either option to filter for those products.
+If you have low stock or out of stock alerts, continue to the next section to create and send a purchase order.

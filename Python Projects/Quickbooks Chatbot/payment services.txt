@@ -1,0 +1,41 @@
+Use PayPal and Venmo with QuickBooks Online
+by Intuit
+•
+62
+•
+Updated a day ago
+Learn how your customers can pay e-Invoices with PayPal and Venmo with QuickBooks Online and QuickBooks Self-Employed.
+
+Create an invoice and make sure PayPal/Venmo is set as a Payment Method. Fill out the invoice and send it to your customer.
+
+You'll receive an email when someone pays you. QuickBooks marks the invoice as paid, just like other payment methods we support. QuickBooks creates a received payment transaction to record the payment.
+
+We'll deposit the funds directly to your bank account on your normal deposit schedule. Once the money deposits to your bank account, you'll see it automatically reconciled.
+
+Note: PayPal and Venmo work with most major credit and debit cards from nearly all US banks. For more info on how PayPal or Venmo work, check out the PayPal or Venmo help center. 
+
+Accept PayPal and Venmo
+If you don't have a QuickBooks Payments account, apply for one. If approved, you'll be able to process bank transfers/ACH, PayPal, Venmo, and credit cards.
+
+Turn on PayPal and Venmo for all new sales
+Note: There's no feature for using PayPal and Venmo on recurring invoices at this time. If your customer wishes to pay with PayPal or Venmo, create and send a standard invoice.
+
+Select the Gear ⚙ icon, then Accounts and Settings.
+Select Sales, then select Accept PayPal to make PayPal and Venmo available for all new sales transactions.
+When customers open your email, they'll be able to use PayPal and Venmo if their account is set up. 
+
+Your customer can then select Buy with PayPal or Venmo and pay.
+
+Fees
+If a customer pays an invoice with PayPal or Venmo and your plan includes invoice pricing, the Card-Invoiced rate is applied. If your plan doesn't include invoice pricing, the Card-Keyed rate will be applied.
+
+You'll be charged refund fees, based on your pricing agreement.
+
+See Venmo or PayPal Status
+You can view the status of a PayPal or Venmo transaction in the Sales tab. The payment shows from “PayPal/Venmo”.
+
+Handle a chargeback
+We'll notify you if your customer files a chargeback for a PayPal / Venmo credit card payment, and we'll let you know the next steps. You’ll have 5 calendar days from the notification date to complete the required steps. 
+
+Reverse a PayPal or Venmo payment
+The PayPal / Venmo payment displays in the Merchant Service Center as a credit card transaction. You can reverse the payment made by your customer by voiding the receive payment transaction or by reversing the payment in the Merchant Service Center -- just like you would for credit card transactions.

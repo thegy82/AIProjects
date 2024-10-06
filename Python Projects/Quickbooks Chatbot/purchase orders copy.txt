@@ -1,0 +1,33 @@
+Copy an estimate to a purchase order in QuickBooks Online
+by Intuit
+•
+25
+•
+Updated 3 weeks ago
+Learn how to copy an estimate onto a purchase order in QuickBooks Online.
+
+To streamline your process once a customer approves your estimate you can easily copy it to a purchase order. In this article, we'll show you how.
+
+Note: This option isn't available yet for the new estimate and invoice layout. Find out which layout you have.
+Step 1: Turn on the purchase order feature
+Go to Settings Settings gear icon., then select Account and settings.
+Go to Expenses.
+Select the pencil ✎ icon in the Purchase orders section.
+Turn on the Use purchase orders switch.
+Select Save, then Done.
+Step 2: Copy estimate to a purchase order
+Select + New.
+Select Estimate.
+Enter customer and product or service details. Then select Save.
+A dropdown choice of Create invoice or Copy to purchase order will appear next to the amount.
+Select Copy to purchase order.
+Select a Vendor.
+In the Item details section, select the same customer mentioned on the purchase order.
+Select Save and close.
+Why didn't some of my items copy over to the purchase order?
+Only items marked as purchased from vendors get copied over to purchase orders. Verify that your products or services are marked accordingly.
+
+Go to Settings ⚙, then select Products & services (Take me there).
+Find the product or service. Then select Edit.
+In the Purchasing information section, select the I purchase this product/service from a vendor checkbox.
+Select Save and close.
