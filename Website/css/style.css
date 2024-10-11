@@ -1,118 +1,102 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #DCDCDC;
+    overflow-x: hidden;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px 22%;
+    margin-top: 40px;
+    background-color: #DCDCDC;
+    color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header nav ul {
-    list-style-type: none;
-    padding: 0;
+header .name {
+    font-size: 28px;
+    font-weight: 510;
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-header nav ul li a {
-    color: white;
+header nav a {
+    margin-left: 20px;
     text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    transition: color 0.3s ease;
 }
 
-main {
+header nav a:hover {
+    color: #007BFF;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    padding: 100px 22%;
+    background-color: #DCDCDC;
+    height: 900px;
+}
+
+.left {
+    max-width: 38%;
+}
+
+.left h1 {
+    font-size: 100px;
+    font-weight: 510;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.left p {
+    font-size: 28px;
+    color: #000000;
+    margin: 10px 0 0;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    margin-top: 20px;
+ }
+
+.button-container button {
     padding: 20px;
+    font-size: 24px;
+    height: 70px;
+    width: 300px;
+    align-items: center;
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#hero {
-    background-image: url('../assets/images/hero-image.jpg');
-    background-size: cover;
-    text-align: center;
-    padding: 100px 20px;
-    color: white;
+.button-container button:hover {
+    background-color: #000000;
+    color: #DCDCDC;
 }
-
-#about, #portfolio, #blog, #contact {
-    margin: 50px 0;
-}
-
-#about img, .project img {
-    width: 150px;
-    border-radius: 50%;
+.right img {
+    width: auto;
+    height: 1103px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-
-#chatbot-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px;
-    height: 400px;
-    background-color: white;
-    border: 2px solid #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    align-items: center;
-}
-
-#chatbot-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#chatbot-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-#chatbot-messages {
-    padding: 10px;
-    overflow-y: auto;
-    flex-grow: 1;
-}
-
-#chatbot-input {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: calc(100% - 80px);
-    margin: 10px;
-    border-radius: 5px;
-}
-
-#chatbot-submit {
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#chatbot-submit:hover {
-    background-color: #555;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px solid #ddd;
+    height: 100px;
 }
